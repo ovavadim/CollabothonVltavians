@@ -1,0 +1,2 @@
+1//textAns//quesText//quesGraph1.png|||ans1text;ans1val//ans2text;ans2val//ans3text;ans3val//ans4text;ans4val
+2//graphAns//quesText//quesGraph1.png|||ans1imagePath;ans1val//ans2imagePath;ans2val//ans3imagePath;ans3val//ans4imagePath;ans4val

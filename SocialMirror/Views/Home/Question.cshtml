@@ -1,0 +1,38 @@
+﻿
+@{
+    ViewData["Title"] = "Home Page";
+    Question question = (Question)ViewData["newQues"];
+}
+
+<div class="text-center">
+    <h1 class="display-4">There is some text to present our great application.</h1>
+    <p>In order to start, please, click the <a href="/Home/Start">link</a></p>
+
+
+
+    
+    
+
+
+    <form action="/Home/Question" method="post">
+
+        <p>@question.Text</p>
+
+        @foreach (Answer answer in question.Answers)
+        {
+
+            <input type="radio" id="html" name="chosenAnswer" value="@answer.Value">
+            <label for="html">@answer.Text</label>
+
+            <br>
+
+            
+        }
+        <input type="hidden" name="quesId" value="@question.Id" />
+        <input type="submit" value="Next question"/>
+
+    </form>
+
+
+
+</div>

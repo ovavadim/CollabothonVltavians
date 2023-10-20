@@ -1,6 +1,10 @@
 {
   "Version": 1,
+<<<<<<< HEAD
   "Hash": "32kzlq03nUTeWb0c7XTBDii+kBWiAmlUp7UxBTob9Us=",
+=======
+  "Hash": "sy5CPjWoUJ1IiJxhlpgo4Jmg1XKC8zz4iaN6FRGXCWc=",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
   "Source": "SocialMirror",
   "BasePath": "_content/SocialMirror",
   "Mode": "Default",
@@ -10,17 +14,28 @@
     {
       "Name": "SocialMirror\\wwwroot",
       "Source": "SocialMirror",
+<<<<<<< HEAD
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SocialMirror.styles.css",
       "SourceId": "SocialMirror",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SocialMirror.styles.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "SocialMirror.styles.css",
       "AssetKind": "All",
@@ -31,6 +46,7 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SocialMirror.styles.css"
     },
     {
@@ -38,6 +54,15 @@
       "SourceId": "SocialMirror",
       "SourceType": "Computed",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\obj\\Debug\\net7.0\\scopedcss\\bundle\\SocialMirror.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SocialMirror.bundle.scp.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "SocialMirror.bundle.scp.css",
       "AssetKind": "All",
@@ -48,6 +73,7 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
+<<<<<<< HEAD
       "OriginalItemSpec": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SocialMirror.bundle.scp.css"
     },
     {
@@ -55,6 +81,15 @@
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "OriginalItemSpec": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\SocialMirror.bundle.scp.css"
+    },
+    {
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\css\\site.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -68,6 +103,7 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\css\\StyleSheet.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
@@ -106,6 +142,12 @@
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\favicon.ico",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -119,6 +161,7 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\Images\\background.jpg",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
@@ -140,6 +183,12 @@
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\js\\site.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -153,10 +202,17 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -170,10 +226,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -187,10 +250,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -204,10 +274,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -221,10 +298,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -238,10 +322,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -255,10 +346,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -272,10 +370,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -289,10 +394,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -306,10 +418,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -323,10 +442,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -340,10 +466,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -357,10 +490,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -374,10 +514,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -391,10 +538,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -408,10 +562,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -425,10 +586,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -442,10 +610,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -459,10 +634,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -476,10 +658,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -493,10 +682,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -510,10 +706,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -527,10 +730,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -544,10 +754,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -561,10 +778,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -578,10 +802,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -595,10 +826,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -612,10 +850,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -629,10 +874,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -646,10 +898,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -663,10 +922,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -680,10 +946,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -697,10 +970,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -714,10 +994,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -731,10 +1018,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -748,10 +1042,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -765,10 +1066,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -782,10 +1090,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -799,10 +1114,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -816,10 +1138,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -833,10 +1162,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -850,10 +1186,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -867,10 +1210,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -884,10 +1234,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -901,10 +1258,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -918,10 +1282,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -935,10 +1306,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -952,10 +1330,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -969,10 +1354,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -986,10 +1378,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1003,10 +1402,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1020,10 +1426,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1037,10 +1450,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1054,10 +1474,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1071,10 +1498,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1088,10 +1522,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1105,10 +1546,17 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
+<<<<<<< HEAD
       "Identity": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "SocialMirror",
       "SourceType": "Discovered",
       "ContentRoot": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+=======
+      "Identity": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "SourceId": "SocialMirror",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\ovava\\source\\repos\\CollabothonVltavians\\SocialMirror\\wwwroot\\",
+>>>>>>> 399dfd3f48fb108963612746deffce8546ae6d8d
       "BasePath": "_content/SocialMirror",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

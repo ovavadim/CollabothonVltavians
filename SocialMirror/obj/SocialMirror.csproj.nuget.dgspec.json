@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\91812\\Collabothon\\SocialMirror\\SocialMirror.csproj": {}
+    "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\SocialMirror.csproj": {}
   },
   "projects": {
-    "C:\\Users\\91812\\Collabothon\\SocialMirror\\SocialMirror.csproj": {
+    "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\SocialMirror.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\91812\\Collabothon\\SocialMirror\\SocialMirror.csproj",
+        "projectUniqueName": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\SocialMirror.csproj",
         "projectName": "SocialMirror",
-        "projectPath": "C:\\Users\\91812\\Collabothon\\SocialMirror\\SocialMirror.csproj",
+        "projectPath": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\SocialMirror.csproj",
         "packagesPath": "C:\\Users\\91812\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\91812\\Collabothon\\SocialMirror\\obj\\",
+        "outputPath": "C:\\Users\\91812\\Collabothon\\CollabothonVltavians\\SocialMirror\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\91812\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -21,7 +21,8 @@
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -38,6 +39,20 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Firebase.Auth": {
+              "target": "Package",
+              "version": "[1.0.0, )"
+            },
+            "Microsoft.AspNetCore.Session": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

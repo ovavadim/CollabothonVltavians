@@ -24,11 +24,22 @@
 
         @foreach (Answer answer in question.Answers)
         {
+            if (question.IsText)
+            {
+                <input type="radio" id="html" name="chosenAnswer" value="@answer.Value" required>
+                <label for="answerText">@answer.Text</label>
+                <br>
+                <br>
+            }
+            else
+            {
+                <input type="radio" id="html" name="chosenAnswer" value="@answer.Value" required>
+                <img src="@answer.Text"/>
+                <br>
+                <br>
+            }
 
-            <input type="radio" id="html" name="chosenAnswer" value="@answer.Value" required>
-            <label for="answerText">@answer.Text</label>
-            <br>
-            <br>      
+                
         }
         <input type="hidden" name="quesId" value="@question.Id" />
         <div class="text-center">

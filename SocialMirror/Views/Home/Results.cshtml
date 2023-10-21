@@ -1,7 +1,7 @@
 ﻿
 @{
     ViewData["Title"] = "The results";
-
+    int points = (int)ViewData["Points"];
 }
 
 <head>
@@ -9,15 +9,30 @@
 </head>
 
 <div class="text-center">
-    <p1>The results.</p1>
+    <p1>RESULTS</p1>
 </div>
 <br />
 <br />
-  
-<p>Hi @ViewData["Username"]</p>
-<p>Your points number is @ViewData["Points"]</p>
-<p>The description: @ViewData["Description"]</p>
+
+
+<div style="text-align: center;">
+    @if (points > 0 && points <= 10)
+    {
+        <img src="https://media.giphy.com/media/a93jwI0wkWTQs/giphy.gif" />
+
+    }
+    @if (points > 10 && points <= 20)
+    {
+        <img src="https://media0.giphy.com/media/OL4LjUYS2UlMSYehkH/giphy.gif?cid=ecf05e47wgnjbiwj8gbhqqj792asxhq8ye5oorsacvhagwu4&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
+    }
+
+    @if (points > 21)
+    {
+        <img src="https://media0.giphy.com/media/3oEjHYibHwRL7mrNyo/giphy.gif?cid=ecf05e47gs5lhulpx0067wm48ddmzulelb3e75xedxm6grca&ep=v1_gifs_search&rid=giphy.gif&ct=g" />
+    }
     
+</div>
+
 
 
 

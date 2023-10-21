@@ -12,6 +12,7 @@ namespace SocialMirror.Controllers
         private readonly ILogger<HomeController> _logger;
         List<Question> Questions;
         int Points = 0;
+        string Username;
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -24,8 +25,8 @@ namespace SocialMirror.Controllers
         void InitQuestion()
         {
             Questions = new List<Question>();
-            //string[] lines = System.IO.File.ReadAllLines(@"..\SocialMirror\Resources\questions.txt");
-            string[] lines = System.IO.File.ReadAllLines(@"Resources/questions.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"..\SocialMirror\Resources\questions.txt");
+            // string[] lines = System.IO.File.ReadAllLines(@"Resources/questions.txt");
 
             foreach (string line in lines)
             {
@@ -66,28 +67,9 @@ namespace SocialMirror.Controllers
         {
 
             Question ques = Questions.Where(p => p.Id == 1).ToList()[0];
-            //
-
-            //Answer answer1 = new Answer()
-            //{
-            //    Text = "ans1",
-            //    Value = "val1"
-            //};
-
-            //Answer answer2 = new Answer()
-            //{
-            //    Text = "ans2",
-            //    Value = "val2"
-            //};
-
-            //Question question = new Question()
-            //{
-            //    Id = 1,
-            //    Text = "ques1Text",
-            //    Answers = new List<Answer>() { answer1, answer2 }
-            //};
 
             ViewData["newQues"] = ques;
+            ViewData["buttonCaption"] = "Next Scenario";
 
             return View();
         }
@@ -100,8 +82,12 @@ namespace SocialMirror.Controllers
 
             //handle answer
 
+<<<<<<< HEAD
 
 
+=======
+            System.IO.File.AppendAllText(@"..\SocialMirror\Resources\answers.txt", "add");
+>>>>>>> main
 
             Points += Convert.ToInt32(chosenAnswer);
 
@@ -109,7 +95,7 @@ namespace SocialMirror.Controllers
             //last page of the questionnary
             if (intId == Questions.Count - 1)
             {
-                ViewData["buttonCaption"] = "Finish the questionnary";
+                ViewData["buttonCaption"] = "Finish the questionnaire";
 
             }
 
@@ -138,7 +124,7 @@ namespace SocialMirror.Controllers
                 return View("Results");
             }
 
-            ViewData["buttonCaption"] = "Next  question";
+            ViewData["buttonCaption"] = "Next  Scenario";
             ++intId;
 
             ViewData["newQues"] = Questions.Where(p => p.Id == intId).ToList()[0];
@@ -155,6 +141,8 @@ namespace SocialMirror.Controllers
         {
             try
             {
+                Username = (loginModel.Email).Split('@')[0];
+                ViewData["Username"] = Username;
                 //create the user
                 await auth.CreateUserWithEmailAndPasswordAsync(loginModel.Email, loginModel.Password);
                 //log in the new user
@@ -190,6 +178,7 @@ namespace SocialMirror.Controllers
         {
             try
             {
+                
                 //log in an existing user
                 var fbAuthLink = await auth
                                 .SignInWithEmailAndPasswordAsync(loginModel.Email, loginModel.Password);
@@ -198,9 +187,11 @@ namespace SocialMirror.Controllers
                 if (token != null)
                 {
                     HttpContext.Session.SetString("_UserToken", token);
-
-                    return RedirectToAction("Privacy");
+                    ViewData["Username"] = loginModel.Email;
+                    UserInfo.userName = loginModel.Email;
+                    return View("Privacy");
                 }
+                
 
             }
             catch (FirebaseAuthException ex)
@@ -210,10 +201,15 @@ namespace SocialMirror.Controllers
                 return View(loginModel);
             }
 
-            return View();
+            return View("Privacy");
         }
 
-
+        public IActionResult LogOut()
+        {
+            HttpContext.Session.Remove("_UserToken");
+            UserInfo.userName = null;
+            return RedirectToAction("SignIn");
+        }
 
         public IActionResult Privacy()
         {

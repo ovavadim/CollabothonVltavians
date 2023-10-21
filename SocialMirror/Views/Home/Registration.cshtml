@@ -18,11 +18,14 @@
                 <div asp-validation-summary="All" class="text-danger"></div>
                 <div class="form-group">
                     <label asp-for="Email" class="control-label"></label>
+                    <br />
                     <input asp-for="Email" class="form-control" />
                     <span asp-validation-for="Email" class="text-danger"></span>
                 </div>
+                <br />
                 <div class="form-group">
                     <label asp-for="Password" class="control-label"></label>
+                    <br />
                     <input asp-for="Password" class="form-control" type="password" />
                     <span asp-validation-for="Password" class="text-danger"></span>
                 </div>
@@ -33,7 +36,7 @@
             </form>
         </div>
     </div>
-
+    <br />
     <div>
         <a asp-action="SignIn" class="text-black-50">Already have an account?Sign In</a>
     </div>

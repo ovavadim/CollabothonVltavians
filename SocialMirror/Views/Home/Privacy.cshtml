@@ -16,5 +16,23 @@
     </h1>
     <br />
     <button1 onclick="location.href ='/Home/Question'">Start Reflecting</button1>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    @if (UserInfo.userName == null)
+    {
+        <div>
+            You are not logged in! Click on Home to login.
+        </div>
+    }
+    else
+    {
+        <div>
+            You are logged in with Email: @UserInfo.userName!
+        </div>
+    }
 </div>
 

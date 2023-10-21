@@ -1,4 +1,7 @@
-﻿@{
+﻿
+
+
+@{
     ViewData["Title"] = "Home Page";
 }
 
@@ -13,12 +16,23 @@
 <br />
 <div class="text-center" >
     <h1 class="display-8">
-        Ever been curious how your social behaviour affects your surrounding? <br /> Take this short yet interesting quiz to understand how YOU are part of your society. <br />Be true to yourself and choose answers that match your reality and not expectation.
+        Ever been curious how your social behaviour affects your surrounding? <br /> Take this short yet interesting questionnaire to understand how YOU are part of your society. <br />Be true to yourself and choose answers that match your reality and not expectation.
         After all, we are all work in progress and this is your first step towards a better society. <br /> Congratulations!
     </h1>
     <br/>
     <br/>
-    <button1 onclick="location.href ='/Home/Registration'">Register or Sign In to start</button1>
+    @if (UserInfo.userName == null)
+    {
+        <button1 onclick="location.href ='/Home/Registration'">Register or Sign In to start</button1>
+    } 
+    else
+    {
+        <button1 onclick="location.href ='/Home/LogOut'">SignOut</button1>
+    }
+
+    
+  
+    
 </div>
 
 

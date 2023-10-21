@@ -1,8 +1,27 @@
 ﻿body {
+    background-image: url(../Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
 }
 
 p1 {
-    color: #000000; 
+    color: floralwhite; 
     text-align: center;
     font-size: 1vw;
+    font-weight: 900;
+}
+
+p {
+    color: #000000;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 500;
+}
+
+label {
+    color: #000000;
+    text-align: center;
+    font-size: 1vw;
+    font-weight: 500;
 }

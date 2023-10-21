@@ -25,8 +25,8 @@ namespace SocialMirror.Controllers
         void InitQuestion()
         {
             Questions = new List<Question>();
-            string[] lines = System.IO.File.ReadAllLines(@"..\SocialMirror\Resources\questions.txt");
-            // string[] lines = System.IO.File.ReadAllLines(@"Resources/questions.txt");
+            //string[] lines = System.IO.File.ReadAllLines(@"..\SocialMirror\Resources\questions.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"Resources/questions.txt");
 
             foreach (string line in lines)
             {
@@ -81,8 +81,18 @@ namespace SocialMirror.Controllers
 
 
             //handle answer
+            if (UserQuestionAnswer.OneUserAnswer == null)
+                UserQuestionAnswer.OneUserAnswer = new List<UserOneAnswer>();
 
-            System.IO.File.AppendAllText(@"..\SocialMirror\Resources\answers.txt", "add");
+
+            UserQuestionAnswer.OneUserAnswer.Add(
+                new UserOneAnswer
+                {
+                    User = UserInfo.userName,
+                    Question = quesId,
+                    Answer = chosenAnswer
+                });
+            
 
             Points += Convert.ToInt32(chosenAnswer);
 

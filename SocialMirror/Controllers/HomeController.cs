@@ -99,6 +99,10 @@ namespace SocialMirror.Controllers
 
 
             //handle answer
+
+
+
+
             Points += Convert.ToInt32(chosenAnswer);
 
 

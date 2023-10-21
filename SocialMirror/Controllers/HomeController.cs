@@ -11,6 +11,7 @@ namespace SocialMirror.Controllers
         FirebaseAuthProvider auth;
         private readonly ILogger<HomeController> _logger;
         List<Question> Questions;
+        int Points = 0;
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -23,7 +24,9 @@ namespace SocialMirror.Controllers
         void InitQuestion()
         {
             Questions = new List<Question>();
-            string[] lines = System.IO.File.ReadAllLines(@"..\SocialMirror\Resources\questions.txt");
+            //string[] lines = System.IO.File.ReadAllLines(@"..\SocialMirror\Resources\questions.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"Resources/questions.txt");
+
             foreach (string line in lines)
             {
                 string[] quesAns = line.Split("|||");
@@ -96,16 +99,42 @@ namespace SocialMirror.Controllers
 
 
             //handle answer
+            Points += Convert.ToInt32(chosenAnswer);
 
 
-
-            if (intId == Questions.Count)
+            //last page of the questionnary
+            if (intId == Questions.Count - 1)
             {
-                //last page
+                ViewData["buttonCaption"] = "Finish the questionnary";
 
             }
 
+            //user finished the questionnary
+            if (intId == Questions.Count)
+            {
 
+                if(Points > 0 && Points <= 2)
+                {
+                    ViewData["Description"] = "Descr1";
+                }
+
+                if (Points > 2 && Points <= 4)
+                {
+                    ViewData["Description"] = "Descr2";
+                }
+
+                if (Points > 4)
+                {
+                    ViewData["Description"] = "Descr3";
+                }
+
+
+
+                ViewData["Points"] = Points;
+                return View("Results");
+            }
+
+            ViewData["buttonCaption"] = "Next  question";
             ++intId;
 
             ViewData["newQues"] = Questions.Where(p => p.Id == intId).ToList()[0];

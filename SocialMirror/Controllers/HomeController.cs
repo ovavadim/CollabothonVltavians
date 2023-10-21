@@ -12,6 +12,7 @@ namespace SocialMirror.Controllers
         private readonly ILogger<HomeController> _logger;
         List<Question> Questions;
         int Points = 0;
+        string Username;
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
@@ -68,7 +69,7 @@ namespace SocialMirror.Controllers
             Question ques = Questions.Where(p => p.Id == 1).ToList()[0];
 
             ViewData["newQues"] = ques;
-            ViewData["buttonCaption"] = "Next Question";
+            ViewData["buttonCaption"] = "Next Scenario";
 
             return View();
         }
@@ -80,13 +81,16 @@ namespace SocialMirror.Controllers
 
 
             //handle answer
+
+            System.IO.File.AppendAllText(@"..\SocialMirror\Resources\answers.txt", "add");
+
             Points += Convert.ToInt32(chosenAnswer);
 
 
             //last page of the questionnary
             if (intId == Questions.Count - 1)
             {
-                ViewData["buttonCaption"] = "Finish the questionnary";
+                ViewData["buttonCaption"] = "Finish the questionnaire";
 
             }
 
@@ -115,7 +119,7 @@ namespace SocialMirror.Controllers
                 return View("Results");
             }
 
-            ViewData["buttonCaption"] = "Next  question";
+            ViewData["buttonCaption"] = "Next  Scenario";
             ++intId;
 
             ViewData["newQues"] = Questions.Where(p => p.Id == intId).ToList()[0];
@@ -132,6 +136,8 @@ namespace SocialMirror.Controllers
         {
             try
             {
+                Username = (loginModel.Email).Split('@')[0];
+                ViewData["Username"] = Username;
                 //create the user
                 await auth.CreateUserWithEmailAndPasswordAsync(loginModel.Email, loginModel.Password);
                 //log in the new user
@@ -167,6 +173,7 @@ namespace SocialMirror.Controllers
         {
             try
             {
+                
                 //log in an existing user
                 var fbAuthLink = await auth
                                 .SignInWithEmailAndPasswordAsync(loginModel.Email, loginModel.Password);
@@ -175,9 +182,11 @@ namespace SocialMirror.Controllers
                 if (token != null)
                 {
                     HttpContext.Session.SetString("_UserToken", token);
-
-                    return RedirectToAction("Privacy");
+                    ViewData["Username"] = loginModel.Email;
+                    UserInfo.userName = loginModel.Email;
+                    return View("Privacy");
                 }
+                
 
             }
             catch (FirebaseAuthException ex)
@@ -187,10 +196,15 @@ namespace SocialMirror.Controllers
                 return View(loginModel);
             }
 
-            return View();
+            return View("Privacy");
         }
 
-
+        public IActionResult LogOut()
+        {
+            HttpContext.Session.Remove("_UserToken");
+            UserInfo.userName = null;
+            return RedirectToAction("SignIn");
+        }
 
         public IActionResult Privacy()
         {

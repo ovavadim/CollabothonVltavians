@@ -40,7 +40,7 @@ namespace SocialMirror.Controllers
                     ImagePath = quesParts[3]
                 };
 
-                string[] ansParts = quesAns[1].Split("//");
+                string[] ansParts = quesAns[1].Split("///");
 
                 foreach (string answer in ansParts)
                 {

@@ -107,6 +107,13 @@ namespace SocialMirror.Controllers
             //user finished the questionnary
             if (intId == Questions.Count)
             {
+                int points = 0;
+                List<UserOneAnswer> currentUserAnswers = UserQuestionAnswer.OneUserAnswer.Where(p => p.User == UserInfo.userName).ToList();
+
+                foreach(UserOneAnswer curAns in currentUserAnswers)
+                {
+                    points += Convert.ToInt32(curAns.Answer);
+                }
 
                 if(Points > 0 && Points <= 2)
                 {

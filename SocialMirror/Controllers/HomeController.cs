@@ -11,7 +11,7 @@ namespace SocialMirror.Controllers
         FirebaseAuthProvider auth;
         private readonly ILogger<HomeController> _logger;
         List<Question> Questions;
-        int Points = 0;
+    
         string Username;
         public HomeController(ILogger<HomeController> logger)
         {
@@ -94,7 +94,7 @@ namespace SocialMirror.Controllers
                 });
             
 
-            Points += Convert.ToInt32(chosenAnswer);
+            
 
 
             //last page of the questionnary
@@ -115,24 +115,24 @@ namespace SocialMirror.Controllers
                     points += Convert.ToInt32(curAns.Answer);
                 }
 
-                if(Points > 0 && Points <= 2)
+                if(points > 0 && points <= 2)
                 {
                     ViewData["Description"] = "Descr1";
                 }
 
-                if (Points > 2 && Points <= 4)
+                if (points > 2 && points <= 4)
                 {
                     ViewData["Description"] = "Descr2";
                 }
 
-                if (Points > 4)
+                if (points > 4)
                 {
                     ViewData["Description"] = "Descr3";
                 }
 
 
 
-                ViewData["Points"] = Points;
+                ViewData["Points"] = points;
                 return View("Results");
             }
 

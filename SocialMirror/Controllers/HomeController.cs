@@ -133,7 +133,7 @@ namespace SocialMirror.Controllers
                 {
                     HttpContext.Session.SetString("_UserToken", token);
 
-                    return RedirectToAction("Index");
+                    return RedirectToAction("Privacy");
                 }
             }
             catch (FirebaseAuthException ex)
@@ -146,6 +146,41 @@ namespace SocialMirror.Controllers
             return View();
 
         }
+
+        public IActionResult SignIn()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SignIn(LoginModel loginModel)
+        {
+            try
+            {
+                //log in an existing user
+                var fbAuthLink = await auth
+                                .SignInWithEmailAndPasswordAsync(loginModel.Email, loginModel.Password);
+                string token = fbAuthLink.FirebaseToken;
+                //save the token to a session variable
+                if (token != null)
+                {
+                    HttpContext.Session.SetString("_UserToken", token);
+
+                    return RedirectToAction("Privacy");
+                }
+
+            }
+            catch (FirebaseAuthException ex)
+            {
+                var firebaseEx = JsonConvert.DeserializeObject<FirebaseError>(ex.ResponseData);
+                ModelState.AddModelError(String.Empty, firebaseEx.error.message);
+                return View(loginModel);
+            }
+
+            return View();
+        }
+
+
 
         public IActionResult Privacy()
         {

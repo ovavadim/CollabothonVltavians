@@ -24,13 +24,15 @@
         @foreach (Answer answer in question.Answers)
         {
 
-            <input type="radio" id="html" name="chosenAnswer" value="@answer.Value">
+            <input type="radio" id="html" name="chosenAnswer" value="@answer.Value" required>
             <label for="answerText">@answer.Text</label>
             <br>
             <br>      
         }
         <input type="hidden" name="quesId" value="@question.Id" />
-        <input type="submit" value="Next question"/>
+        <div class="text-center">
+            <input type="submit" value="@ViewData["buttonCaption"]" class="btn btn-dark" />
+        </div>
 
     </form>
 

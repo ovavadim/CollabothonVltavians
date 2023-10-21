@@ -24,8 +24,8 @@ namespace SocialMirror.Controllers
         void InitQuestion()
         {
             Questions = new List<Question>();
-            //string[] lines = System.IO.File.ReadAllLines(@"..\SocialMirror\Resources\questions.txt");
-            string[] lines = System.IO.File.ReadAllLines(@"Resources/questions.txt");
+            string[] lines = System.IO.File.ReadAllLines(@"..\SocialMirror\Resources\questions.txt");
+            // string[] lines = System.IO.File.ReadAllLines(@"Resources/questions.txt");
 
             foreach (string line in lines)
             {
@@ -66,28 +66,9 @@ namespace SocialMirror.Controllers
         {
 
             Question ques = Questions.Where(p => p.Id == 1).ToList()[0];
-            //
-
-            //Answer answer1 = new Answer()
-            //{
-            //    Text = "ans1",
-            //    Value = "val1"
-            //};
-
-            //Answer answer2 = new Answer()
-            //{
-            //    Text = "ans2",
-            //    Value = "val2"
-            //};
-
-            //Question question = new Question()
-            //{
-            //    Id = 1,
-            //    Text = "ques1Text",
-            //    Answers = new List<Answer>() { answer1, answer2 }
-            //};
 
             ViewData["newQues"] = ques;
+            ViewData["buttonCaption"] = "Next Question";
 
             return View();
         }

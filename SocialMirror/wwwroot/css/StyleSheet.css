@@ -1,0 +1,31 @@
+﻿body {
+    background-image: url(../Images/background.jpg);
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+}
+
+h1 {
+    color: #000000; /* Green */
+    font-family: 'Courier New', monospace;
+    font-weight: 900;
+}
+
+p1 {
+    color: #006400; /* Dark Green */
+    text-align: center;
+    font-size: 2vw;
+}
+
+button1 {
+    background-color: #000000; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    font-size: 24px;
+}

@@ -4,29 +4,30 @@
     Question question = (Question)ViewData["newQues"];
 }
 
+<head>
+    <link rel="stylesheet" href="~/css/StyleSheet1.css">
+</head>
+
 <div class="text-center">
-    <h1 class="display-4">There is some text to present our great application.</h1>
-    <p>In order to start, please, click the <a href="/Home/Start">link</a></p>
-
-
-
-    
-    
-
-
+    <p1>Honesty is the best policy.</p1>
+</div>
+<br />
+<br />
+  
+<div>
     <form action="/Home/Question" method="post">
 
         <p>@question.Text</p>
+        <br/>
+        <br/>
 
         @foreach (Answer answer in question.Answers)
         {
 
             <input type="radio" id="html" name="chosenAnswer" value="@answer.Value">
-            <label for="html">@answer.Text</label>
-
+            <label for="answerText">@answer.Text</label>
             <br>
-
-            
+            <br>      
         }
         <input type="hidden" name="quesId" value="@question.Id" />
         <input type="submit" value="Next question"/>

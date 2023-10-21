@@ -1,20 +1,23 @@
 ﻿using System.Diagnostics;
+using Firebase.Auth;
 using Microsoft.AspNetCore.Mvc;
+using Newtonsoft.Json;
 using SocialMirror.Models;
 
 namespace SocialMirror.Controllers
 {
     public class HomeController : Controller
     {
+        FirebaseAuthProvider auth;
         private readonly ILogger<HomeController> _logger;
         List<Question> Questions;
-
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
             InitQuestion();
+            auth = new FirebaseAuthProvider(
+                            new FirebaseConfig("AIzaSyBTfMkVACq1atf9TVLCkX3PerL9UuKKLts"));
         }
-
 
 
         void InitQuestion()
@@ -50,7 +53,6 @@ namespace SocialMirror.Controllers
             }
 
         }
-
         public IActionResult Index()
         {
 
@@ -108,6 +110,41 @@ namespace SocialMirror.Controllers
 
             ViewData["newQues"] = Questions.Where(p => p.Id == intId).ToList()[0];
             return View();
+        }
+
+        public IActionResult Registration()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Registration(LoginModel loginModel)
+        {
+            try
+            {
+                //create the user
+                await auth.CreateUserWithEmailAndPasswordAsync(loginModel.Email, loginModel.Password);
+                //log in the new user
+                var fbAuthLink = await auth
+                                .SignInWithEmailAndPasswordAsync(loginModel.Email, loginModel.Password);
+                string token = fbAuthLink.FirebaseToken;
+                //saving the token in a session variable
+                if (token != null)
+                {
+                    HttpContext.Session.SetString("_UserToken", token);
+
+                    return RedirectToAction("Index");
+                }
+            }
+            catch (FirebaseAuthException ex)
+            {
+                var firebaseEx = JsonConvert.DeserializeObject<FirebaseError>(ex.ResponseData);
+                ModelState.AddModelError(String.Empty, firebaseEx.error.message);
+                return View(loginModel);
+            }
+
+            return View();
+
         }
 
         public IActionResult Privacy()

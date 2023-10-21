@@ -1,8 +1,9 @@
 ﻿namespace SocialMirror.Models
 {
-    public class Answer
+    public class UserOneAnswer
     {
-        public string Text { get; set; }
-        public string Value { get; set; }
+        public string User { get; set; }
+        public string Question { get; set; }
+        public string Answer { get; set; }
     }
 }
